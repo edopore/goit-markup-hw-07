@@ -11,28 +11,28 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <nav class="nav-bar">
-          <h2 class="logo m-0 btn"><a href="./index.html">WebStudio</a></h2>
-          <ul class="nav-link-page m-0 p-0">
-            <li class="nav-page li-color">
+        <nav class="header__nav-bar">
+          <h2 class="nav-bar__logo m-0 btn"><a href="./index.html">WebStudio</a></h2>
+          <ul class="nav-bar__links m-0 p-0">
+            <li class="nav-bar__links--link-color">
               <a href="./index.html">Estudio</a>
             </li>
-            <li class="nav-page li-color">
-              <a class="current" href="./portfolio.html">Portafolio</a>
+            <li class="nav-bar__links--link-color">
+              <a class="nav-bar__links--link-current" href="./portfolio.html">Portafolio</a>
             </li>
-            <li class="li-color nav-page"><a href="#">Contactos</a></li>
+            <li class="nav-bar__links--link-color"><a href="#">Contactos</a></li>
           </ul>
-          <ul class="nav-info m-0">
-            <li class="nav-link nav-contact">
-              <svg class="svg-contact">
+          <ul class="nav-bar__links-info m-0">
+            <li class="nav-bar__links-info nav-bar__links-info--contact">
+              <svg class="nav-bar__links-info--svg-contact">
                 <use href="./images/icons/icons.svg#icon-mail"></use>
               </svg>
               <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="nav-link nav-contact">
-              <svg class="svg-contact">
+            <li class="nav-bar__links-info nav-bar__links-info--contact">
+              <svg class="nav-bar__links-info--svg-contact">
                 <use href="./images/icons/icons.svg#icon-smartphone"></use>
               </svg>
               <a href="tel:+525555296000">+52 55 5529 6000</a>
@@ -42,175 +42,177 @@
       </div>
     </header>
     <main class="container">
-      <section class="section">
+      <section class="main__section-portfolio section">
         <div class="container">
-          <ul class="btn-filter">
-            <li><button class="btn btn-lst" type="button">Todo</button></li>
+          <ul class="portfolio__btn-filter">
+            <li><button class="portfolio__btn-lst btn" type="button">Todo</button></li>
             <li>
-              <button class="btn btn-lst" type="button">Sitio-web</button>
+              <button class="portfolio__btn-lst btn" type="button">Sitio-web</button>
             </li>
             <li>
-              <button class="btn btn-lst" type="button">Aplicaciones</button>
+              <button class="portfolio__btn-lst btn" type="button">Aplicaciones</button>
             </li>
             <li>
-              <button class="btn btn-lst" type="button">Diseño</button>
+              <button class="portfolio__btn-lst btn" type="button">Diseño</button>
             </li>
             <li>
-              <button class="btn btn-lst" type="button">Marketing</button>
+              <button class="portfolio__btn-lst btn" type="button">Marketing</button>
             </li>
           </ul>
-          <ul class="card-data">
-            <li class="card-info">
-              <div class="image-container">
+          <ul class="section-portfolio__card-data">
+            <li class="card-data__info">
+              <div class="info__image-container">
                 <img class="img" src="./images/tecnoduck.jpg" alt="tecnoduck" width="370" />
-                <p class="p__description m-0 transition">
+                <p class="image-container__p-description m-0 transition">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores quidem
                   impedit optio numquam voluptatum at inventore laborum cumque accusamus nemo, sequi
                   in tempora sint porro alias consectetur repellat ratione?
                 </p>
               </div>
-              <div class="text-info m-0">
-                <h2 class="h2-project m-0">Tecnoduck</h2>
-                <p class="p-project m-0">Sitio-web</p>
+              <div class="info__description-container m-0">
+                <h2 class="description-container__h2 m-0">Tecnoduck</h2>
+                <p class="description-container__p m-0">Sitio-web</p>
               </div>
             </li>
-            <li class="card-info">
-              <div class="image-container">
+            <li class="card-data__info">
+              <div class="info__image-container">
                 <img class="img" src="./images/poster.jpg" alt="poster" width="370" />
-                <p class="p__description m-0 transition">
+                <p class="image-container__p-description m-0 transition">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores quidem
                   impedit optio numquam voluptatum at inventore laborum cumque accusamus nemo, sequi
                   in tempora sint porro alias consectetur repellat ratione?
                 </p>
               </div>
-              <div class="text-info m-0">
-                <h2 class="h2-project m-0">Póster de Nueva Orleans vs Estrella Dorada</h2>
-                <p class="p-project m-0">Diseño</p>
+              <div class="info__description-container m-0">
+                <h2 class="description-container__h2 m-0">
+                  Póster de Nueva Orleans vs Estrella Dorada
+                </h2>
+                <p class="description-container__p m-0">Diseño</p>
               </div>
             </li>
-            <li class="card-info">
-              <div class="image-container">
+            <li class="card-data__info">
+              <div class="info__image-container">
                 <img class="img" src="./images/seafood.jpg" alt="restaurant-seafood" width="370" />
-                <p class="p__description m-0 transition">
+                <p class="image-container__p-description m-0 transition">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores quidem
                   impedit optio numquam voluptatum at inventore laborum cumque accusamus nemo, sequi
                   in tempora sint porro alias consectetur repellat ratione?
                 </p>
               </div>
-              <div class="text-info m-0">
-                <h2 class="h2-project m-0">Restaurante Seafood</h2>
-                <p class="p-project m-0">Aplicaciones</p>
+              <div class="info__description-container m-0">
+                <h2 class="description-container__h2 m-0">Restaurante Seafood</h2>
+                <p class="description-container__p m-0">Aplicaciones</p>
               </div>
             </li>
-            <li class="card-info">
-              <div class="image-container">
+            <li class="card-data__info">
+              <div class="info__image-container">
                 <img class="img" src="./images/headphone.jpg" alt="project-prime" width="370" />
-                <p class="p__description m-0 transition">
+                <p class="image-container__p-description m-0 transition">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores quidem
                   impedit optio numquam voluptatum at inventore laborum cumque accusamus nemo, sequi
                   in tempora sint porro alias consectetur repellat ratione?
                 </p>
               </div>
-              <div class="text-info m-0">
-                <h2 class="h2-project m-0">Proyecto Prime</h2>
-                <p class="p-project m-0">Marketing</p>
+              <div class="info__description-container m-0">
+                <h2 class="description-container__h2 m-0">Proyecto Prime</h2>
+                <p class="description-container__p m-0">Marketing</p>
               </div>
             </li>
-            <li class="card-info">
-              <div class="image-container">
+            <li class="card-data__info">
+              <div class="info__image-container">
                 <img class="img" src="./images/boxes.jpg" alt="project-boxes" width="370" />
-                <p class="p__description m-0 transition">
+                <p class="image-container__p-description m-0 transition">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores quidem
                   impedit optio numquam voluptatum at inventore laborum cumque accusamus nemo, sequi
                   in tempora sint porro alias consectetur repellat ratione?
                 </p>
               </div>
-              <div class="text-info m-0">
-                <h2 class="h2-project m-0">Proyecto Cajas</h2>
-                <p class="p-project m-0">Aplicaciones</p>
+              <div class="info__description-container m-0">
+                <h2 class="description-container__h2 m-0">Proyecto Cajas</h2>
+                <p class="description-container__p m-0">Aplicaciones</p>
               </div>
             </li>
-            <li class="card-info">
-              <div class="image-container">
+            <li class="card-data__info">
+              <div class="info__image-container">
                 <img
                   class="img"
                   src="./images/inspiration.jpg"
                   alt="inspiration-has-no-limits"
                   width="370"
                 />
-                <p class="p__description m-0 transition">
+                <p class="image-container__p-description m-0 transition">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores quidem
                   impedit optio numquam voluptatum at inventore laborum cumque accusamus nemo, sequi
                   in tempora sint porro alias consectetur repellat ratione?
                 </p>
               </div>
-              <div class="text-info m-0">
-                <h2 class="h2-project m-0">La inspiración no tiene límites</h2>
-                <p class="p-project m-0">Sitio-web</p>
+              <div class="info__description-container m-0">
+                <h2 class="description-container__h2 m-0">La inspiración no tiene límites</h2>
+                <p class="description-container__p m-0">Sitio-web</p>
               </div>
             </li>
-            <li class="card-info">
-              <div class="image-container">
+            <li class="card-data__info">
+              <div class="info__image-container">
                 <img
                   class="img"
                   src="./images/limited-edition.jpg"
                   alt="limited-edition"
                   width="370"
                 />
-                <p class="p__description m-0 transition">
+                <p class="image-container__p-description m-0 transition">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores quidem
                   impedit optio numquam voluptatum at inventore laborum cumque accusamus nemo, sequi
                   in tempora sint porro alias consectetur repellat ratione?
                 </p>
               </div>
-              <div class="text-info m-0">
-                <h2 class="h2-project m-0">Edición Limitada</h2>
-                <p class="p-project m-0">Diseño</p>
+              <div class="info__description-container m-0">
+                <h2 class="description-container__h2 m-0">Edición Limitada</h2>
+                <p class="description-container__p m-0">Diseño</p>
               </div>
             </li>
-            <li class="card-info">
-              <div class="image-container">
+            <li class="card-data__info">
+              <div class="info__image-container">
                 <img class="img" src="./images/label.jpg" alt="project-lab" width="370" />
-                <p class="p__description m-0 transition">
+                <p class="image-container__p-description m-0 transition">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores quidem
                   impedit optio numquam voluptatum at inventore laborum cumque accusamus nemo, sequi
                   in tempora sint porro alias consectetur repellat ratione?
                 </p>
               </div>
-              <div class="text-info m-0">
-                <h2 class="h2-project m-0">Proyecto LAB</h2>
-                <p class="p-project m-0">Marketing</p>
+              <div class="info__description-container m-0">
+                <h2 class="description-container__h2 m-0">Proyecto LAB</h2>
+                <p class="description-container__p m-0">Marketing</p>
               </div>
             </li>
-            <li class="card-info">
-              <div class="image-container">
+            <li class="card-data__info">
+              <div class="info__image-container">
                 <img
                   class="img"
                   src="./images/growth-business.jpg"
                   alt="growth-bussiness"
                   width="370"
                 />
-                <p class="p__description m-0 transition">
+                <p class="image-container__p-description m-0 transition">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores quidem
                   impedit optio numquam voluptatum at inventore laborum cumque accusamus nemo, sequi
                   in tempora sint porro alias consectetur repellat ratione?
                 </p>
               </div>
-              <div class="text-info m-0">
-                <h2 class="h2-project m-0">Negocio en Crecimiento</h2>
-                <p class="p-project m-0">Aplicaciones</p>
+              <div class="info__description-container m-0">
+                <h2 class="description-container__h2 m-0">Negocio en Crecimiento</h2>
+                <p class="description-container__p m-0">Aplicaciones</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="contact-info">
+    <footer class="footer__contact-info">
       <div class="container">
-        <address class="address">
+        <address class="footer__address">
           <ul>
-            <li class="address-links">
-              <h2 class="logo logo-footer">
+            <li class="address__links">
+              <h2 class="nav-bar__logo footer__logo">
                 <a href="./index.html">WebStudio</a>
               </h2>
               <p class="address-footer">Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
@@ -218,37 +220,37 @@
               <a href="tel:+525555296000 transition">+52 55 5529 6000</a>
             </li>
           </ul>
-          <ul class="ul-links links-footer">
-            <li class="social-subtitle">
-              <h3 class="title-footer">ENCUENTRENOS EN</h3>
+          <ul class="team-card__ul-links footer__links">
+            <li class="ul-links__social-subtitle">
+              <h3 class="li__title-footer">ENCUENTRENOS EN</h3>
             </li>
-            <li class="social-link btn">
-              <svg class="svg-icon icon-footer">
+            <li class="ul-links__social-link btn">
+              <svg class="social-link__svg-icon icon-footer">
                 <use href="./images/icons/icons.svg#icon-instagram"></use>
               </svg>
             </li>
-            <li class="social-link btn">
-              <svg class="svg-icon icon-footer transition">
+            <li class="ul-links__social-link btn">
+              <svg class="social-link__svg-icon icon-footer transition">
                 <use href="./images/icons/icons.svg#icon-twitter"></use>
               </svg>
             </li>
-            <li class="social-link btn">
-              <svg class="svg-icon icon-footer transition">
+            <li class="ul-links__social-link btn">
+              <svg class="social-link__svg-icon icon-footer transition">
                 <use href="./images/icons/icons.svg#icon-facebook"></use>
               </svg>
             </li>
-            <li class="social-link btn">
-              <svg class="svg-icon icon-footer transition">
+            <li class="ul-links__social-link btn">
+              <svg class="social-link__svg-icon icon-footer transition">
                 <use href="./images/icons/icons.svg#icon-linkedin"></use>
               </svg>
             </li>
           </ul>
           <ul>
             <li>
-              <h3 class="title-footer">SUSCRÍBASE AL BOLETIN INFORMATIVO</h3>
+              <h3 class="li__title-footer">SUSCRÍBASE AL BOLETIN INFORMATIVO</h3>
             </li>
             <li>
-              <form class="subscribe-form" name="subscribe-form" action="">
+              <form class="footer__subscribe-form" name="subscribe-form" action="">
                 <label for="email">
                   <input
                     type="email"
@@ -257,7 +259,7 @@
                     placeholder="Correo Electrónico"
                   />
                 </label>
-                <button type="submit" class="subscribe-btn btn-sol">
+                <button type="submit" class="subscribe-form__btn main__section-title--btn-sol">
                   Suscribase
                   <svg class="svg-subscribe-form">
                     <use href="./images/icons/icons.svg#icon-send"></use>

@@ -11,28 +11,28 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <nav class="nav-bar">
-          <h2 class="logo m-0 btn"><a href="./index.html">WebStudio</a></h2>
-          <ul class="nav-link-page m-0 p-0">
-            <li class="nav-page li-color">
-              <a class="current" href="./index.html">Estudio</a>
+        <nav class="header__nav-bar">
+          <h2 class="nav-bar__logo m-0 btn"><a href="./index.html">WebStudio</a></h2>
+          <ul class="nav-bar__links m-0 p-0">
+            <li class="nav-bar__links--link-color">
+              <a class="nav-bar__links--link-current" href="./index.html">Estudio</a>
             </li>
-            <li class="nav-page li-color">
+            <li class="nav-bar__links--link-color">
               <a href="./portfolio.html">Portafolio</a>
             </li>
-            <li class="li-color nav-page"><a href="#">Contactos</a></li>
+            <li class="nav-bar__links--link-color"><a href="#">Contactos</a></li>
           </ul>
-          <ul class="nav-info m-0">
-            <li class="nav-link nav-contact">
-              <svg class="svg-contact">
+          <ul class="nav-bar__links-info m-0">
+            <li class="nav-bar__links-info nav-bar__links-info--contact">
+              <svg class="nav-bar__links-info--svg-contact">
                 <use href="./images/icons/icons.svg#icon-mail"></use>
               </svg>
               <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="nav-link nav-contact">
-              <svg class="svg-contact">
+            <li class="nav-bar__links-info nav-bar__links-info--contact">
+              <svg class="nav-bar__links-info--svg-contact">
                 <use href="./images/icons/icons.svg#icon-smartphone"></use>
               </svg>
               <a href="tel:+525555296000">+52 55 5529 6000</a>
@@ -42,25 +42,25 @@
       </div>
     </header>
     <main>
-      <section class="title section">
+      <section class="main__section-title section">
         <div class="container">
-          <ul class="container-title">
+          <ul class="main__section-title-ul">
             <li>
-              <h1 class="h1-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-              <button type="button" class="btn btn-sol" data-modal-open>
+              <h1 class="main__section-title-ul--h1-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+              <button type="button" class="btn main__section-title--btn-sol" data-modal-open>
                 Solicite nuestro servicio
               </button>
             </li>
           </ul>
         </div>
       </section>
-      <section class="values section">
+      <section class="main__section-values section">
         <div class="container">
-          <ul class="solution">
-            <li class="solution-card">
+          <ul class="main__section-solution">
+            <li class="main__section-solution-card">
               <ul>
-                <li class="svg-container">
-                  <svg class="svg-solution">
+                <li class="main__section--svg-container">
+                  <svg class="main__section--svg-solution">
                     <use href="./images/icons/icons.svg#icon-antena"></use>
                   </svg>
                 </li>
@@ -75,10 +75,10 @@
                 </li>
               </ul>
             </li>
-            <li class="solution-card">
+            <li class="main__section-solution-card">
               <ul>
-                <li class="svg-container">
-                  <svg class="svg-solution">
+                <li class="main__section--svg-container">
+                  <svg class="main__section--svg-solution">
                     <use href="./images/icons/icons.svg#icon-reloj"></use>
                   </svg>
                 </li>
@@ -92,10 +92,10 @@
                 </p>
               </ul>
             </li>
-            <li class="solution-card">
+            <li class="main__section-solution-card">
               <ul>
-                <li class="svg-container">
-                  <svg class="svg-solution">
+                <li class="main__section--svg-container">
+                  <svg class="main__section--svg-solution">
                     <use href="./images/icons/icons.svg#icon-diagram"></use>
                   </svg>
                 </li>
@@ -110,10 +110,10 @@
                 </li>
               </ul>
             </li>
-            <li class="solution-card">
+            <li class="main__section-solution-card">
               <ul>
-                <li class="svg-container">
-                  <svg class="svg-solution">
+                <li class="main__section--svg-container">
+                  <svg class="main__section--svg-solution">
                     <use href="./images/icons/icons.svg#icon-astronaut"></use>
                   </svg>
                 </li>
@@ -131,57 +131,57 @@
           </ul>
         </div>
       </section>
-      <section class="services section">
+      <section class="main__section-services section">
         <div class="container">
           <h2>A qué nos dedicamos</h2>
-          <ul class="services-lists">
+          <ul class="main__section-services-lists">
             <li class="services-images">
-              <div class="service-container">
+              <div class="main__section-services-container">
                 <img src="./images/keyboard.jpg" alt="service 1" width="370" />
-                <h3 class="service-title m-0">APLICACIONES DE ESCRITORIO</h3>
+                <h3 class="main__service-title m-0">APLICACIONES DE ESCRITORIO</h3>
               </div>
             </li>
             <li class="services-images">
-              <div class="service-container">
+              <div class="main__section-services-container">
                 <img src="./images/phone.jpg" alt="service 2" width="370" />
-                <h3 class="service-title m-0">APLICACIONES MÓVILES</h3>
+                <h3 class="main__service-title m-0">APLICACIONES MÓVILES</h3>
               </div>
             </li>
             <li class="services-images">
-              <div class="service-container">
+              <div class="main__section-services-container">
                 <img src="./images/color-palette.jpg" alt="service 3" width="370" />
-                <h3 class="service-title m-0">SOLUCIONES DE DISEÑO</h3>
+                <h3 class="main__service-title m-0">SOLUCIONES DE DISEÑO</h3>
               </div>
             </li>
           </ul>
         </div>
       </section>
-      <section class="our-team section">
+      <section class="main__section-team section">
         <div class="container">
           <h2>Nuestro Equipo</h2>
-          <ul class="team-card">
+          <ul class="main_section-team-card">
             <li>
               <img src="./images/andres.jpg" alt="andres-cubo" width="270" />
               <h3>Andrés Cubo</h3>
               <p>Diseñador de Productos</p>
-              <ul class="ul-links">
-                <li class="social-link btn">
-                  <svg class="svg-icon">
+              <ul class="team-card__ul-links">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon">
                     <use href="./images/icons/icons.svg#icon-instagram"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon">
                     <use href="./images/icons/icons.svg#icon-twitter"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon">
                     <use href="./images/icons/icons.svg#icon-facebook"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon">
                     <use href="./images/icons/icons.svg#icon-linkedin"></use>
                   </svg>
                 </li>
@@ -191,24 +191,24 @@
               <img src="./images/carla.jpg" alt="carla-palacios" width="270" />
               <h3>Carla Palacios</h3>
               <p>Desarrolladora Frontend</p>
-              <ul class="ul-links">
-                <li class="social-link btn">
-                  <svg class="svg-icon">
+              <ul class="team-card__ul-links">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon">
                     <use href="./images/icons/icons.svg#icon-instagram"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-twitter"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-facebook"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-linkedin"></use>
                   </svg>
                 </li>
@@ -218,24 +218,24 @@
               <img src="./images/mario.jpg" alt="mario-dorado" width="270" />
               <h3>Mario Dorado</h3>
               <p>Marketing</p>
-              <ul class="ul-links">
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+              <ul class="team-card__ul-links">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-instagram"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-twitter"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-facebook"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-linkedin"></use>
                   </svg>
                 </li>
@@ -245,24 +245,24 @@
               <img src="./images/pablo.jpg" alt="pablo-mijangos" width="270" />
               <h3>Pablo Mijangos</h3>
               <p>Diseñador UI</p>
-              <ul class="ul-links">
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+              <ul class="team-card__ul-links">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-instagram"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-twitter"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-facebook"></use>
                   </svg>
                 </li>
-                <li class="social-link btn">
-                  <svg class="svg-icon transition">
+                <li class="ul-links__social-link btn">
+                  <svg class="social-link__svg-icon transition">
                     <use href="./images/icons/icons.svg#icon-linkedin"></use>
                   </svg>
                 </li>
@@ -271,37 +271,37 @@
           </ul>
         </div>
       </section>
-      <section class="clients section">
+      <section class="main__section-clients section">
         <div class="container">
           <h2>Clientes Regulares</h2>
-          <ul class="clients-links">
-            <li class="client-card btn">
-              <svg class="client-logo">
+          <ul class="main__section-clients-links">
+            <li class="section-clients-links__client-card btn">
+              <svg class="client-card__logo">
                 <use href="./images/icons/icons.svg#icon-the"></use>
               </svg>
             </li>
-            <li class="client-card btn">
-              <svg class="client-logo">
+            <li class="section-clients-links__client-card btn">
+              <svg class="client-card__logo">
                 <use href="./images/icons/icons.svg#icon-brand"></use>
               </svg>
             </li>
-            <li class="client-card btn">
-              <svg class="client-logo">
+            <li class="section-clients-links__client-card btn">
+              <svg class="client-card__logo">
                 <use href="./images/icons/icons.svg#icon-foster"></use>
               </svg>
             </li>
-            <li class="client-card btn">
-              <svg class="client-logo">
+            <li class="section-clients-links__client-card btn">
+              <svg class="client-card__logo">
                 <use href="./images/icons/icons.svg#icon-company"></use>
               </svg>
             </li>
-            <li class="client-card btn">
-              <svg class="client-logo">
+            <li class="section-clients-links__client-card btn">
+              <svg class="client-card__logo">
                 <use href="./images/icons/icons.svg#icon-company2"></use>
               </svg>
             </li>
-            <li class="client-card btn">
-              <svg class="client-logo">
+            <li class="section-clients-links__client-card btn">
+              <svg class="client-card__logo">
                 <use href="./images/icons/icons.svg#icon-avy"></use>
               </svg>
             </li>
@@ -309,12 +309,12 @@
         </div>
       </section>
     </main>
-    <footer class="contact-info">
+    <footer class="footer__contact-info">
       <div class="container">
-        <address class="address">
+        <address class="footer__address">
           <ul>
-            <li class="address-links">
-              <h2 class="logo logo-footer">
+            <li class="address__links">
+              <h2 class="nav-bar__logo footer__logo">
                 <a href="./index.html">WebStudio</a>
               </h2>
               <p class="address-footer">Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
@@ -322,37 +322,37 @@
               <a href="tel:+525555296000 transition">+52 55 5529 6000</a>
             </li>
           </ul>
-          <ul class="ul-links links-footer">
-            <li class="social-subtitle">
-              <h3 class="title-footer">ENCUENTRENOS EN</h3>
+          <ul class="team-card__ul-links footer__links">
+            <li class="ul-links__social-subtitle">
+              <h3 class="li__title-footer">ENCUENTRENOS EN</h3>
             </li>
-            <li class="social-link btn">
-              <svg class="svg-icon icon-footer">
+            <li class="ul-links__social-link btn">
+              <svg class="social-link__svg-icon icon-footer">
                 <use href="./images/icons/icons.svg#icon-instagram"></use>
               </svg>
             </li>
-            <li class="social-link btn">
-              <svg class="svg-icon icon-footer transition">
+            <li class="ul-links__social-link btn">
+              <svg class="social-link__svg-icon icon-footer transition">
                 <use href="./images/icons/icons.svg#icon-twitter"></use>
               </svg>
             </li>
-            <li class="social-link btn">
-              <svg class="svg-icon icon-footer transition">
+            <li class="ul-links__social-link btn">
+              <svg class="social-link__svg-icon icon-footer transition">
                 <use href="./images/icons/icons.svg#icon-facebook"></use>
               </svg>
             </li>
-            <li class="social-link btn">
-              <svg class="svg-icon icon-footer transition">
+            <li class="ul-links__social-link btn">
+              <svg class="social-link__svg-icon icon-footer transition">
                 <use href="./images/icons/icons.svg#icon-linkedin"></use>
               </svg>
             </li>
           </ul>
           <ul>
             <li>
-              <h3 class="title-footer">SUSCRÍBASE AL BOLETIN INFORMATIVO</h3>
+              <h3 class="li__title-footer">SUSCRÍBASE AL BOLETIN INFORMATIVO</h3>
             </li>
             <li>
-              <form class="subscribe-form" name="subscribe-form" action="">
+              <form class="footer__subscribe-form" name="subscribe-form" action="">
                 <label for="email">
                   <input
                     type="email"
@@ -361,7 +361,7 @@
                     placeholder="Correo Electrónico"
                   />
                 </label>
-                <button type="submit" class="subscribe-btn btn-sol">
+                <button type="submit" class="subscribe-form__btn main__section-title--btn-sol">
                   Suscribase
                   <svg class="svg-subscribe-form">
                     <use href="./images/icons/icons.svg#icon-send"></use>
@@ -429,7 +429,9 @@
                   Estoy de acuerdo con el boletin informativo y acepto los Términos y Condiciones
                 </label>
               </fieldset>
-              <button type="submit" class="btn btn-sol btn-modal-form">Enviar</button>
+              <button type="submit" class="btn main__section-title--btn-sol btn-modal-form">
+                Enviar
+              </button>
             </fieldset>
           </form>
         </div>
