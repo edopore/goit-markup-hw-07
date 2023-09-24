@@ -1,0 +1,96 @@
+/*Footer*/
+.footer__address {
+  color: $white;
+  text-align: left;
+  display: flex;
+  padding-top: 60px;
+  gap: 45px;
+}
+.footer__address ul li p {
+  color: $white;
+}
+.footer__address li a {
+  color: $desc-font-color;
+  transition: color $time-animation $cubic-bezier-animation;
+  &:hover {
+    color: $blue-font-color;
+    background-color: transparent;
+    text-decoration: none;
+  }
+}
+.footer__address li h2 a {
+  color: $blue-font-color;
+}
+.address__links {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 231px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.address-footer,
+.footer__logo {
+  margin: 0 0;
+  padding: 0 0;
+}
+.address__links:nth-child(n) {
+  padding: 0px;
+  margin: 0px 0px;
+}
+.footer__contact-info {
+  background-color: $title-bg-color;
+}
+.li__title-footer {
+  font-style: initial;
+  font-weight: 700;
+  margin: 0px;
+}
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  width: 206px;
+}
+.ul-links__social-subtitle {
+  display: flex;
+  align-items: end;
+}
+.icon-footer {
+  fill: $white;
+}
+.footer__subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+}
+
+.subscribe-email {
+  background-color: transparent;
+  color: $white-fnt-alpha;
+  border: 1px solid $white-alpha;
+  width: 358px;
+  padding: 15px;
+  border-radius: 4px;
+  &:hover {
+    border: 1px solid $blue-font-color;
+  }
+  &:focus {
+    border: 1px solid $blue-font-color;
+    color: $white;
+  }
+}
+.subscribe-form__btn {
+  width: 200px;
+  padding: 10px;
+}
+.svg-subscribe-form {
+  width: 24px;
+  height: 24px;
+}

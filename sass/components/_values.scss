@@ -1,0 +1,60 @@
+/*Section values*/
+.main__section-values {
+  ul {
+    box-sizing: content-box;
+    text-align: left;
+  }
+}
+.main__section-solution {
+  display: flex;
+  justify-content: space-between;
+}
+.main__section-solution-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+}
+.main__section-solution-card {
+  ul {
+    padding: 0px;
+  }
+}
+.main__section--svg-solution {
+  text-align: center;
+  width: 70px;
+  border-radius: 4px;
+}
+.main__section--svg-container {
+  background-color: $team-bg-color;
+  text-align: center;
+  border-radius: 4px;
+}
+.main__section-solution-card {
+  h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+.main__section-services-lists {
+  display: flex;
+  justify-content: space-between;
+}
+.main__section-services-container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.main__service-title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $service-color-shadow;
+  color: $white;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  height: 25%;
+  bottom: 0px;
+}

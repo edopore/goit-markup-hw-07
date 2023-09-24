@@ -1,0 +1,91 @@
+/*Header*/
+.nav-bar__logo {
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  font-style: normal;
+  color: $blue-font-color;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.header__nav-bar {
+  display: flex;
+  align-items: center;
+}
+.nav-bar__logo {
+  a {
+    color: $blue-font-color;
+  }
+}
+.nav-bar__links--link-current {
+  &::after {
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    bottom: -37px;
+    background-color: $blue-font-color;
+    border-radius: 4px;
+  }
+}
+.nav-bar__links {
+  display: flex;
+  align-items: start;
+  gap: 25%;
+}
+.nav-bar__links--link-color {
+  a {
+    color: $title-font-color;
+    text-decoration: none;
+    transition: color $time-animation $cubic-bezier-animation;
+    &:hover {
+      color: $blue-font-color;
+      background-color: transparent;
+      text-decoration: none;
+    }
+  }
+}
+.nav-bar__links-info--contact {
+  a {
+    color: $desc-font-color;
+    text-decoration: none;
+    transition: color $time-animation $cubic-bezier-animation;
+  }
+}
+
+.nav-bar__links-info--contact {
+  &:hover {
+    .nav-bar__links-info--svg-contact {
+      cursor: pointer;
+      fill: $blue-font-color;
+    }
+    a {
+      cursor: pointer;
+      color: $blue-font-color;
+      background-color: transparent;
+      text-decoration: none;
+    }
+  }
+}
+.nav-bar__links-info--svg-contact {
+  fill: $desc-font-color;
+  width: 20px;
+  height: 20px;
+  transition: fill $time-animation $cubic-bezier-animation;
+}
+.header__nav-bar {
+  padding: 32px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar__links-info {
+  .nav-bar__links-info--contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
