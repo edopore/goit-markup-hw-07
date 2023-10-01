@@ -9,26 +9,23 @@
   display: flex;
   justify-content: space-between;
 }
-.values__solution-card {
+.values__card {
   display: flex;
   flex-wrap: wrap;
   width: 270px;
-  ul {
-    padding: 0px;
-  }
-  h2 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-  }
+}
+.card__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
 }
 
-.solution-card--svg-solution {
+.values-card__svg {
   text-align: center;
   width: 70px;
   border-radius: 4px;
 }
-.solution-card--svg-container {
+.values-card__container-svg {
   background-color: $team-bg-color;
   text-align: center;
   border-radius: 4px;

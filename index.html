@@ -26,14 +26,14 @@
           </ul>
         </nav>
         <ul class="contact-nav flex flex--links">
-          <li class="nav-bar__links-info nav-bar__links-info--contact">
-            <svg class="nav-bar__links-info--svg-contact">
+          <li class="contact-nav--contact flex">
+            <svg class="contact-bar--svg-contact">
               <use href="./images/icons/icons.svg#icon-mail"></use>
             </svg>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="nav-bar__links-info nav-bar__links-info--contact">
-            <svg class="nav-bar__links-info--svg-contact">
+          <li class="contact-nav--contact flex">
+            <svg class="contact-bar--svg-contact">
               <use href="./images/icons/icons.svg#icon-smartphone"></use>
             </svg>
             <a href="tel:+525555296000">+52 55 5529 6000</a>
@@ -57,15 +57,15 @@
       <section class="values section">
         <div class="container">
           <ul class="values__solutions">
-            <li class="values__solution-card">
+            <li class="values__card">
               <ul>
-                <li class="solution-card--svg-container">
-                  <svg class="solution-card--svg-solution">
+                <li class="values-card__container-svg">
+                  <svg class="values-card__svg">
                     <use href="./images/icons/icons.svg#icon-antena"></use>
                   </svg>
                 </li>
                 <li>
-                  <h2>ATENCIÓN A LOS DETALLES</h2>
+                  <h2 class="card__title">ATENCIÓN A LOS DETALLES</h2>
                 </li>
                 <li>
                   <p>
@@ -75,53 +75,53 @@
                 </li>
               </ul>
             </li>
-            <li class="values__solution-card">
-              <ul>
-                <li class="solution-card--svg-container">
-                  <svg class="solution-card--svg-solution">
+            <li class="values__card">
+              <ul class="card">
+                <li class="values-card__container-svg">
+                  <svg class="values-card__svg">
                     <use href="./images/icons/icons.svg#icon-reloj"></use>
                   </svg>
                 </li>
                 <li>
-                  <h2>PUNTUALIDAD</h2>
+                  <h2 class="card__title">PUNTUALIDAD</h2>
                 </li>
                 <li></li>
-                <p>
+                <p class="card_description">
                   Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de
                   la empresa: respetar su tiempo y respetar los plazos acordados.
                 </p>
               </ul>
             </li>
-            <li class="values__solution-card">
-              <ul>
-                <li class="solution-card--svg-container">
-                  <svg class="solution-card--svg-solution">
+            <li class="values__card">
+              <ul class="card">
+                <li class="values-card__container-svg">
+                  <svg class="values-card__svg">
                     <use href="./images/icons/icons.svg#icon-diagram"></use>
                   </svg>
                 </li>
                 <li>
-                  <h2>PLANIFICACIÓN</h2>
+                  <h2 class="card__title">PLANIFICACIÓN</h2>
                 </li>
                 <li>
-                  <p>
+                  <p class="card__description">
                     Usted podrá observar y participar en cada fase del desarrollo y aplicación de
                     soluciones.
                   </p>
                 </li>
               </ul>
             </li>
-            <li class="values__solution-card">
-              <ul>
-                <li class="solution-card--svg-container">
-                  <svg class="solution-card--svg-solution">
+            <li class="values__card">
+              <ul class="card">
+                <li class="values-card__container-svg">
+                  <svg class="values-card__svg">
                     <use href="./images/icons/icons.svg#icon-astronaut"></use>
                   </svg>
                 </li>
                 <li>
-                  <h2>TECNOLOGÍA MODERNA</h2>
+                  <h2 class="card__title">TECNOLOGÍA MODERNA</h2>
                 </li>
                 <li>
-                  <p>
+                  <p class="card__description">
                     Usamos Herramientas innovadoras para resolver las tareas asignadas. Es hora de
                     simplificar los procesos laborales.
                   </p>
@@ -454,7 +454,9 @@
                   Estoy de acuerdo con el boletin informativo y acepto los Términos y Condiciones
                 </label>
               </fieldset>
-              <button type="submit" class="btn title__list--btn-sol btn-modal-form">Enviar</button>
+              <button type="submit" class="btn main__section-title--btn-sol btn-modal-form">
+                Enviar
+              </button>
             </fieldset>
           </form>
         </div>
