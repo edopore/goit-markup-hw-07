@@ -271,9 +271,20 @@ fieldset {
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.nav-bar__logo {
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex--links {
+  gap: 20px;
+}
+
+.logo {
   font-family: "Raleway", sans-serif;
   text-align: right;
   font-style: normal;
@@ -283,7 +294,7 @@ header {
   line-height: 31px;
 }
 
-.nav-bar__logo a {
+.logo a {
   color: #2196f3;
 }
 
@@ -329,7 +340,6 @@ header {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .nav-bar__links-info--contact:hover .nav-bar__links-info--svg-contact {
   cursor: pointer;
   fill: #2196f3;

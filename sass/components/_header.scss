@@ -3,8 +3,17 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.nav-bar__logo {
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex--links {
+  gap: 20px;
+}
+.logo {
   font-family: 'Raleway', sans-serif;
   text-align: right;
   font-style: normal;
@@ -13,7 +22,7 @@ header {
   font-size: 26px;
   line-height: 31px;
 }
-.nav-bar__logo {
+.logo {
   a {
     color: $blue-font-color;
   }
@@ -62,9 +71,6 @@ header {
     text-decoration: none;
     transition: color $time-animation $cubic-bezier-animation;
   }
-}
-
-.nav-bar__links-info--contact {
   &:hover {
     .nav-bar__links-info--svg-contact {
       cursor: pointer;
