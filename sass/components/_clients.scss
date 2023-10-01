@@ -1,9 +1,9 @@
-/*Regular Clients*/
-.main__section-clients-links {
+/*Section Clients*/
+.clients__links {
   display: flex;
   gap: 30px;
 }
-.section-clients-links__client-card {
+.client-card {
   display: flex;
   justify-content: center;
   align-items: center;

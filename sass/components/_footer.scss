@@ -1,15 +1,19 @@
-/*Footer*/
-.footer__address {
+/*Section Footer*/
+.address {
   color: $white;
   text-align: left;
   display: flex;
-  padding-top: 60px;
+  padding: 60px 0px;
   gap: 45px;
 }
-.footer__address ul li p {
+.link-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.link-info__address {
   color: $white;
 }
-.footer__address li a {
+.link-info__action {
   color: $desc-font-color;
   transition: color $time-animation $cubic-bezier-animation;
   &:hover {
@@ -18,10 +22,7 @@
     text-decoration: none;
   }
 }
-.footer__address li h2 a {
-  color: $blue-font-color;
-}
-.address__links {
+.address-links {
   margin-bottom: 0px;
   padding-bottom: 0px;
   display: flex;
@@ -32,24 +33,23 @@
   font-size: 14px;
   line-height: 24px;
 }
-.address-footer,
-.footer__logo {
-  margin: 0 0;
-  padding: 0 0;
-}
-.address__links:nth-child(n) {
+
+.address-links:nth-child(n) {
   padding: 0px;
   margin: 0px 0px;
 }
-.footer__contact-info {
+.contact {
   background-color: $title-bg-color;
 }
-.li__title-footer {
+.section--footer {
+  padding: 0px 10px;
+}
+.footer-form__title {
   font-style: initial;
   font-weight: 700;
   margin: 0px;
 }
-.footer__links {
+.footer-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -58,9 +58,8 @@
   margin-bottom: 50px;
   width: 206px;
 }
-.ul-links__social-subtitle {
-  display: flex;
-  align-items: end;
+.title--initial {
+  font-style: initial;
 }
 .icon-footer {
   fill: $white;
@@ -71,7 +70,7 @@
   gap: 1%;
 }
 
-.subscribe-email {
+.subscribe-form__email {
   background-color: transparent;
   color: $white-fnt-alpha;
   border: 1px solid $white-alpha;
@@ -90,7 +89,7 @@
   width: 200px;
   padding: 10px;
 }
-.svg-subscribe-form {
+.subscribe-form__svg {
   width: 24px;
   height: 24px;
 }

@@ -1,37 +1,32 @@
 /*Section team*/
-.main__section-team {
+.team {
   background-color: $team-bg-color;
 }
-.main_section-team-card {
+.team__cards {
   display: flex;
   justify-content: space-between;
 }
 .team-card {
-  li {
-    border: 1px;
-    width: 270px;
-    border-style: solid;
-    border-color: $card-portfolio-border;
-    border-radius: 0px 0px 4px 4px;
-  }
-}
-.team-card {
-  h3 {
-    color: var($title-font-color);
-  }
-}
-.team-card > li {
+  border: 1px;
+  width: 270px;
+  border-style: solid;
+  border-color: $card-portfolio-border;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 2px 3px $desc-font-color-shadow;
 }
 
-.team-card__ul-links {
+.team-card__name {
+  color: var($title-font-color);
+}
+
+.team-card__social-links {
   padding: 10px 0px;
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 10px;
   transition: background-color $time-animation $cubic-bezier-animation;
-  .ul-links__social-link {
+  .social-link {
     display: flex;
     justify-content: center;
     align-items: center;

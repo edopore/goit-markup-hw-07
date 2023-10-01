@@ -1,4 +1,9 @@
 /*Header*/
+.nav-bar,
+header {
+  display: flex;
+  align-items: center;
+}
 .nav-bar__logo {
   font-family: 'Raleway', sans-serif;
   text-align: right;
@@ -7,10 +12,6 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-}
-.header__nav-bar {
-  display: flex;
-  align-items: center;
 }
 .nav-bar__logo {
   a {
@@ -28,13 +29,6 @@
     background-color: $blue-font-color;
     border-radius: 4px;
   }
-}
-.nav-bar__links {
-  display: flex;
-  align-items: start;
-  gap: 25%;
-}
-.nav-bar__links--link-color {
   a {
     color: $title-font-color;
     text-decoration: none;
@@ -46,6 +40,22 @@
     }
   }
 }
+.nav-bar__links {
+  display: flex;
+  align-items: start;
+  gap: 25%;
+  a {
+    color: $title-font-color;
+    text-decoration: none;
+    transition: color $time-animation $cubic-bezier-animation;
+    &:hover {
+      color: $blue-font-color;
+      background-color: transparent;
+      text-decoration: none;
+    }
+  }
+}
+
 .nav-bar__links-info--contact {
   a {
     color: $desc-font-color;
@@ -74,7 +84,7 @@
   height: 20px;
   transition: fill $time-animation $cubic-bezier-animation;
 }
-.header__nav-bar {
+.nav-bar {
   padding: 32px 0px;
   display: flex;
   justify-content: space-between;
